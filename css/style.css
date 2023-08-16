@@ -2038,6 +2038,20 @@ textarea.form-control {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
+      @media (min-width: 380px){
+
+        .banner-no{
+          display: none;
+        }
+        .logo{
+          width: 3.5em;
+          height: 2.8em;
+        }
+     
+
+
+      }
+
 .btn {
   display: inline-block;
   font-weight: 400;
