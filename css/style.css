@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
  .logo{
   width: 4.5em;
   height: 3.5em;
@@ -56,6 +51,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+  
 
 body {
   margin: 0;
@@ -465,10 +461,16 @@ pre {
       max-width: 540px; } }
   @media (min-width: 768px) {
     .container {
-      max-width: 720px; } }
+      max-width: 720px; }
+    
+    }
   @media (min-width: 992px) {
     .container {
-      max-width: 960px; } }
+      max-width: 960px; }
+    
+      }
+    
+    
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
@@ -1021,9 +1023,8 @@ pre {
   .offset-md-11 {
     margin-left: 91.66667%; }
   
-  .media-body p{
-    display: none;
-  }
+  
+
   }
 
 @media (min-width: 992px) {
@@ -1034,6 +1035,11 @@ pre {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%; }
+
+    
+    .services .media-body h3{
+      font-size: 20px;}
+
   .col-lg-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -9358,7 +9364,12 @@ textarea.form-control {
   box-shadow: 0px 10px 18px -8px rgba(0, 0, 0, 0.1); }
   @media (min-width: 768px) {
     .blog-entry {
-      margin-bottom: 40px; } }
+      margin-bottom: 40px; }
+      .services .media-body h3{
+        font-size: 15px;
+      }
+    
+    }
   @media (max-width: 767.98px) {
     .blog-entry {
       margin-bottom: 30px; } }
@@ -9399,6 +9410,7 @@ textarea.form-control {
     letter-spacing: 1px;
     font-weight: 500;
     color: #0062ec; }
+    
 
 .block-23 ul {
   padding: 0; }
