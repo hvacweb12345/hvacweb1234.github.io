@@ -10,6 +10,7 @@
 }
 .logo{
     width: 3.5em;
+    margin-left: 1em;
 }
 .btn-colour2{
     background-color: #0060AA;
@@ -269,6 +270,9 @@ h6,
 }
 .about-no{
   display: none;
+}
+.logo{
+  margin-left: .5em;
 }
 
 }
