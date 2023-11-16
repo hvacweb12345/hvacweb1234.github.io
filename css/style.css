@@ -1132,6 +1132,14 @@ font-family: 'Oswald', sans-serif;
   -webkit-text-fill-color: transparent;
   
 }
+.about-colour2fa{
+  background: #CD5431;
+  background: linear-gradient(to right, #CD5431 0%, #E38529 16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
 
     /*** Service ***/
     .service-item {
