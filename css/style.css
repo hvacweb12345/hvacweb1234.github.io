@@ -1133,7 +1133,12 @@ font-family: 'Oswald', sans-serif;
   
 }
 .text-colour14{
-  color: #CD5431;
+  color: #D86D1C;
+
+  
+}
+.text-colour14:hover{
+  color: rgb(186, 91, 19);
 
   
 }
