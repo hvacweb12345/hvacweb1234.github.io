@@ -37,7 +37,7 @@
         z-index: 99;
     }
     .logo{
-        width: 10.4em;
+        width: 9.4em;
     }
     .icon-colour{
         color: #2196F3 ;
@@ -167,7 +167,7 @@ font-family: 'Oswald', sans-serif;
     @media (max-width: 500px) {
 
         .logo{
-            width: 8.2em;
+            width: 7.2em;
         }
       
 
