@@ -963,6 +963,9 @@ justify-content: space-between;
 .text-footer-colour{
   color: #AEB5A7;
 }
+.text-footer-colour:hover{
+  color: #888c84;
+}
 
 .footer .btn.btn-link {
   display: block;
