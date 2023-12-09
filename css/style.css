@@ -285,7 +285,7 @@ padding-left: 2em;
 }
 
 .logo {
-width: 3.13em;
+width: 2.5em;
 margin-right: 0.5em;
 margin-bottom: .35em;
 }
@@ -342,6 +342,7 @@ margin-left: 0px;
     visibility: hidden;
     transition: .5s;
 }
+
 
 .navbar .nav-item:hover .dropdown-menu {
     top: 100%;
@@ -454,7 +455,69 @@ margin-left: 0px;
 }
 .logo-text{
 font-size: .85em;
-padding-right: .4em;
+padding-right: 0em;
+
+}}
+@media (max-width: 376px) {
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 550px;
+  }
+  .logo{
+    margin-left: 0em;
+  }
+  .cl5{
+    margin-left: 2.5em;
+    margin-right: 1em;
+  }
+  .cl4{
+    margin-left: 1.75em;
+    margin-right: .1em;
+  }
+  .cl3{
+   
+    margin-left: .65em;
+  }
+  .cl2{
+   
+    margin-right: 1.75em;
+  }
+  .cl1{
+   
+    margin-right: 1.75em;
+  }
+  
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 3.5rem;
+ margin-top: 28em;
+}
+.main-size{
+  font-size: 2.8em;
+}
+.title-text{
+  font-size: 1em;
+}
+.navbar-brand{
+  padding-left: .5em;
+}
+.logo{
+  width: 1em;
+
+}
+.logo-text{
+font-size: .8em;
+padding-right: 0em;
 
 }
 
@@ -468,6 +531,9 @@ padding-right: .4em;
   font-family: 'Noto Serif', serif;
   }
 }
+
+
+
 
 .page-header {
   background: linear-gradient(to right, rgb(54, 55, 56) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-2.jpg) center center no-repeat;
@@ -859,7 +925,7 @@ color: #F5F5F5;
 position: absolute;
 width: 325px;
 display: flex;
-margin-left: 0em;
+margin-left: .3em;
 justify-content: space-between;
 
 }
