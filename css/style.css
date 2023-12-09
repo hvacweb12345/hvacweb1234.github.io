@@ -960,6 +960,9 @@ justify-content: space-between;
 .location{
  
 }
+.text-footer-colour{
+  color: #AEB5A7;
+}
 
 .footer .btn.btn-link {
   display: block;
