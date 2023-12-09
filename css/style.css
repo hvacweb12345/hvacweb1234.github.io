@@ -943,6 +943,12 @@ justify-content: space-between;
 
 }
 
+.about-page-text-a{
+  color: #414141;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
   position: relative;
@@ -951,6 +957,9 @@ justify-content: space-between;
   transition: .5s;
 }
 
+.about-page-text{
+  font-size: .75em;
+}
 
 
 /*** Footer ***/
