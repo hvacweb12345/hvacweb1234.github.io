@@ -965,6 +965,12 @@ justify-content: space-between;
   font-size: .75em;
   color: #6a6a6a;
 }
+.service-link-call{
+  color: #5F656F;
+}
+.service-link-call:hover{
+  color: #9c9ea1;
+}
 
 
 /*** Footer ***/
